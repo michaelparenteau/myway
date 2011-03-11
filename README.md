@@ -10,7 +10,7 @@ Requirements:
 * git
 
 Steps:
-    curl -o ~/bin/mway -L https://github.com/michaelparenteau/myway/raw/master/bin/mway  && chmod +x mway
+    curl -o ~/bin/mway -L https://github.com/michaelparenteau/myway/raw/master/bin/mway  && chmod +x ~/bin/mway
 
 # Usage
 

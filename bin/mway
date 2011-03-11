@@ -22,7 +22,6 @@ function init_git {
   git ci -am "first commit" > /dev/null
 }
 
-``
 create_new_project &&
 setup_rvmrc &&
 init_git &&
