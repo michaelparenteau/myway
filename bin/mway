@@ -3,7 +3,6 @@
 PROJECT_NAME=$1 # First argument passed
 
 function create_new_project {  
-  cd ~/work &&
   git clone git@github.com:michaelparenteau/myway $PROJECT_NAME &&
   cd $PROJECT_NAME &&
   rm -rf .git/
