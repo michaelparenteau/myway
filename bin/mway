@@ -1,0 +1,30 @@
+#!/bin/sh
+
+PROJECT_NAME=$1 # First argument passed
+
+function create_new_project {  
+  cd ~/work &&
+  git clone git@github.com:michaelparenteau/myway $PROJECT_NAME &> /dev/null &&
+  cd $PROJECT_NAME &&
+  rm -rf .git/
+}
+
+function setup_rvmrc {
+  echo "rvm use 1.9.2-p0@$PROJECT_NAME" > .rvmrc &&
+  rvm use 1.9.2-p0 &&
+  rvm gemset create $PROJECT_NAME > /dev/null &&
+  gem install bundler --no-rdoc --no-ri > /dev/null &&
+  bundle install > /dev/null
+}
+
+function init_git {
+  git init &&
+  git add . &&
+  git ci -am "first commit" > /dev/null
+}
+
+``
+create_new_project &&
+setup_rvmrc &&
+init_git &&
+echo "New project created at $HOME/work/$PROJECT_NAME"
