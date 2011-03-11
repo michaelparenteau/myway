@@ -2,14 +2,22 @@
 
 A sinatra.rb starting point
 
-## Requirements
+# Installation
 
-Ruby 1.9.2
+Requirements:
+* RVM (http://rvm.beginrescueend.com/)
+* git
 
-## Getting Started
+Steps:
+    cd ~/bin && curl -OL https://github.com/michaelparenteau/myway/raw/master/bin/mway  && chmod +x mway
 
-    gem install bundler
-    bunle install
+# Usage
+
+To start a new project based on the myway template:
+    mway <name-of-new-project>
+
+## Starting the application
+
     ruby app.rb
 
 ## Deployment

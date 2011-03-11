@@ -3,7 +3,6 @@
 PROJECT_NAME=$1 # First argument passed
 
 function create_new_project {  
-  cd ~/work &&
   git clone git@github.com:michaelparenteau/myway $PROJECT_NAME &> /dev/null &&
   cd $PROJECT_NAME &&
   rm -rf .git/
@@ -27,4 +26,4 @@ function init_git {
 create_new_project &&
 setup_rvmrc &&
 init_git &&
-echo "New project created at $HOME/work/$PROJECT_NAME"
+echo "New project created at `pwd`/$PROJECT_NAME"
