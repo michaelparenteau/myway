@@ -8,6 +8,8 @@ Requirements:
 
 * RVM [http://rvm.beginrescueend.com/](http://rvm.beginrescueend.com/)
 * git
+* a ~/bin directory that is in your PATH environment variable 
+        mkdir ~/bin && echo "PATH=$PATH:~/bin"
 
 Steps:
     curl -o ~/bin/mway -L https://github.com/michaelparenteau/myway/raw/master/bin/mway  && chmod +x ~/bin/mway
