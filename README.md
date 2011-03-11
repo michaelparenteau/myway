@@ -5,7 +5,8 @@ A sinatra.rb starting point
 # Installation
 
 Requirements:
-* RVM (http://rvm.beginrescueend.com/)
+
+* RVM [http://rvm.beginrescueend.com/](http://rvm.beginrescueend.com/)
 * git
 
 Steps:
