@@ -6,5 +6,5 @@
     %section
       =yield
     %footer
-    %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"}
-    %script{:src => "/js/application.js"}
+    = javascript_script_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
+    = javascript_script_tag "/js/application.js"

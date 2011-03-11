@@ -1,9 +1,9 @@
 %head    
   %meta{:'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
   %title myway | a sinatra.rb starting point
-  %link{:href => "/stylesheets/screen.css", :media => "screen, projection", :rel => "stylesheet", :type => "text/css"}/
+  = stylesheet_link_tag "/stylesheets/screen.css"
   /[if IE]
-    %script{:src => "http://html5shiv.googlecode.com/svn/trunk/html5.js"}
+    = javascript_script_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
     %style{:type => "text/css"}
       :plain
         .clear {
