@@ -14,8 +14,11 @@ Requirements:
 Steps (In Terminal.app do the following commands):
 
 1. Make the ~/bin directory and add it to your PATH environment variable
+
        mkdir ~/bin && echo "export PATH=$PATH:$HOME/bin" >> ~/.bash_profile && source ~/.bash_profile
+
 2. Get the mway script and make it executable
+
        curl -o ~/bin/mway -L https://github.com/michaelparenteau/myway/raw/master/bin/mway  && chmod +x ~/bin/mway
 
 # Usage
