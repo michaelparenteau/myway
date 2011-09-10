@@ -1,6 +1,6 @@
 # myway
 
-A sinatra.rb starting point
+A sinatra.rb simple starting point and generator.
 
 # Installation
 
