@@ -18,7 +18,6 @@ Steps (In Terminal.app do the following commands):
    ```
    mkdir ~/bin && echo "export PATH=$PATH:$HOME/bin" >> ~/.bash_profile && source ~/.bash_profile
    ```
-
 2. Get the mway script and make it executable
 
    ```
