@@ -10,7 +10,7 @@ Requirements:
 * git
 * a ~/bin directory that is in your PATH environment variable
  
-    mkdir ~/bin && echo "export PATH=$PATH:$HOME/bin" >> ~/.bash_profile && source ~/.bash_profile
+    `mkdir ~/bin && echo "export PATH=$PATH:$HOME/bin" >> ~/.bash_profile && source ~/.bash_profile`
 
 Steps:
     curl -o ~/bin/mway -L https://github.com/michaelparenteau/myway/raw/master/bin/mway  && chmod +x ~/bin/mway
