@@ -11,7 +11,7 @@ Requirements:
 * git
 * a ~/bin directory that is in your PATH environment variable (see steps below)
 
-Steps (In Terminal.app do the following commands):
+#### Steps (In Terminal.app do the following commands):
 
 **1. Make the ~/bin directory and add it to your PATH environment variable**
 
