@@ -29,5 +29,7 @@ To start a new project based on the myway template:
 
 ## Starting the application
 
+    gem install bundler
+    bundle install
     ruby app.rb
 
