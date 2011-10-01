@@ -9,6 +9,8 @@ require 'sinatra/static_assets'
 #   [username, password] == ['username', 'password']
 # end
 
+set :haml, {:format => :html5}
+
 get '/' do
   haml :index
 end
